@@ -23,7 +23,7 @@ Do not speedrun federal charges because a README looked cool at 3 AM.
 
 ---
 
-# [>] What Is PwnKit?
+# [>_] What Is PwnKit?
 
 `PwnKit` is a local privilege escalation vulnerability in Polkit's `pkexec` utility.
 
@@ -41,7 +41,7 @@ Absolute cinema.
 
 ---
 
-# [>] Vulnerability Flow
+# [>_] Vulnerability Flow
 
 ```text
 ┌─────────────────────────────────────────────────────────────────┐
@@ -67,7 +67,7 @@ Absolute cinema.
 
 ---
 
-# [>] Why This Vulnerability Was So Dangerous
+# [>_] Why This Vulnerability Was So Dangerous
 
 `pkexec` was designed to securely execute commands as another user.
 
@@ -82,7 +82,7 @@ Just execute the payload locally and collect root like a side quest reward.
 
 ---
 
-# [>] Requirements
+# [>_] Requirements
 
 Minimal setup.
 
@@ -94,7 +94,7 @@ Minimal setup.
 
 ---
 
-# [>] Installing GCC
+# [>_] Installing GCC
 
 ## Debian / Ubuntu
 
@@ -117,7 +117,7 @@ sudo pacman -S gcc
 
 ---
 
-# [>] Checking Vulnerability
+# [>_] Checking Vulnerability
 
 ```bash
 pkexec --version
@@ -127,7 +127,7 @@ Most vulnerable systems contain older unpatched versions of Polkit.
 
 ---
 
-# [>] Installation
+# [>_] Installation
 
 ## One-liner
 
@@ -155,7 +155,7 @@ chmod +x pwnkit.sh
 
 ---
 
-# [>] Example Output
+# [>_] Example Output
 
 ```bash
 $ ./pwnkit.sh
@@ -184,7 +184,7 @@ $
 
 ---
 
-# [>] Detection & Mitigation
+# [>_] Detection & Mitigation
 
 ## Check SUID Bit
 
@@ -212,14 +212,14 @@ This removes the SUID bit and blocks exploitation.
 
 ---
 
-# [>] References
+# [>_] References
 
 - [Qualys Research](https://blog.qualys.com/vulnerabilities-threat-research/2022/01/25/pwnkit-local-privilege-escalation-vulnerability-discovered-in-polkits-pkexec-cve-2021-4034)
 - [NIST NVD](https://nvd.nist.gov/vuln/detail/cve-2021-4034)
 
 ---
 
-# [>] Final Notes
+# [>_] Final Notes
 
 PwnKit became legendary because it proved something terrifying:
 
